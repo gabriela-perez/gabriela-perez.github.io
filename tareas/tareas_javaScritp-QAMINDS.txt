@@ -1,0 +1,38 @@
+Las tareas hasta ahorita:
+Tarea #1
+	Invertir el orden del arreglo
+
+Tarea #2
+	Hacer un factorial de cualquier número 'N'
+
+Tarea #3
+	¿Será acaso que pueden crear una funcion que pueda crear objetos usando dos objetos?
+
+Tarea #4
+	Crear objetos Casa, objetos personas
+
+Tarea #5 -> Entrega lunes 26 a las 23:59:59 hrs.
+	Contar el numero de vocales
+input: yurishi output: 3
+
+Tarea #6 -> Entrega lunes 26 a las 23:59:59 hrs.
+	arreglo de numeros, dividirlos de 3 en 3 y imprimir el numero menor
+input: [765345324] output: 532
+paso 1: [ 765 345 324 ]
+paso mostrar el numero menor de cada tercio:
+input: [87654]  [876 54] output: 64
+
+Tarea #7 -> Entrega lunes 26 a las 23:59:59 hrs.
+	Descubrir si una palabra es palindromo
+input: anna   output: Es un palindromo
+input: casa   output: No es un palindromo
+input: arribalabirra   output: Es un palindromo
+
+Tarea #8 -> Entrega lunes 26 a las 23:59:59 hrs.
+	Mejorar ésta función https://qamindscommunity.slack.com/archives/C01U15LEKDJ/p1619144343001600
+
+Tarea #9 -> ¡¡TRAER DE PREFERENCIA PARA LA CLASE DEL JUEVES 29 DE ABRIL!!
+	Hacer pruebas unitarias para probar todas las funciones de "operaciones.js"
+
+Tarea #10
+	Agregar 5 pruebas más, usando más expect que no sean TO BE a "suma.test"

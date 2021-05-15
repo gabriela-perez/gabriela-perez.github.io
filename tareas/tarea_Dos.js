@@ -3,10 +3,13 @@
 
 let n = 5;
 let k = 1;
-function factorial(){
+const factorial = function (n){
   for (let i = 1; i <= n; i ++)
  k *= i;
     console.log(k);
+    return k;
 }
 
 factorial(n);
+
+module.exports = factorial

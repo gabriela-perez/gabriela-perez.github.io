@@ -20,3 +20,4 @@ function vowelCounter()
 }
 
 vowelCounter(mainString);
+module.exports = vowelCounter()

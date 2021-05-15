@@ -6,12 +6,13 @@ let elements = [
   'sodium',
   'potassium'
 ];
-//console.log(elements.reverse());
 
-
-function invertir()
+function invertir ()
 {
 elements.reverse();
 console.log(elements);
+return elements;
 }
-invertir();
+newArray =invertir();
+
+module.exports = newArray

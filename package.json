@@ -1,0 +1,28 @@
+{
+  "name": "javascript-qaminds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriela-perez/JavaScritpTester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriela-perez/JavaScritpTester/issues"
+  },
+  "homepage": "https://github.com/gabriela-perez/JavaScritpTester#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "run": "^1.4.0"
+  }
+}

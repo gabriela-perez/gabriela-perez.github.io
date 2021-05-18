@@ -37,7 +37,7 @@ console.log('Vocales y Consonantes ' + letter_indexof('casa'))
 */
 
 
-let mainString = 'Pizza';
+let mainString = 'Zanahoria';
 let vowels = 'AEIOU';
 
 function vowelCounter()
@@ -55,9 +55,11 @@ function vowelCounter()
       counterConsonants++;
     }
   }
-  //return counter;
-  console.log(`Vocales ${counterVowels}`, `Consonantes ${counterConsonants}`);
 
+  let cadena =`Vocales ${counterVowels} Consonantes ${counterConsonants}`;
+  console.log(cadena);
+  return cadena;
 }
 
 vowelCounter(mainString);
+module.exports = vowelCounter();

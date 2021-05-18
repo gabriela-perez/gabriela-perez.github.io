@@ -4,20 +4,18 @@
 let mainString = 'Gabriela';
 let vowels = 'AEIOU';
 
-function vowelCounter()
-{
+function vowelCounter() {
   let counter = 0;
 
-  for(let i = 0; i < mainString.length ; i++)
-  {
-    if (vowels.toLowerCase().indexOf(mainString[i]) !== -1)
-    {
+  for (let i = 0; i < mainString.length; i++) {
+    if (vowels.toLowerCase().indexOf(mainString[i]) !== -1) {
       counter++;
     }
   }
-  //return counter;
   console.log(counter);
+  return counter;
+
 }
 
-vowelCounter(mainString);
-module.exports = vowelCounter
+vowelCounter();
+module.exports = vowelCounter;

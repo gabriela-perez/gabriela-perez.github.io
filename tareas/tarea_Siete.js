@@ -3,7 +3,7 @@
 //input: anna   output: Es un palindromo
 //input: casa   output: No es un palindromo
 //input: arribalabirra   output: Es un palindromo
-let mainString = "carton";
+let mainString = "anilina";
 
 function palindromo() {
   //console.log(typeof(minValue));
@@ -18,6 +18,8 @@ function palindromo() {
   }
   //console.log(nature);
   //console.log(reverseNature);
+  return reverseString;
 
 }
-palindromo(mainString);
+palindromo();
+module.exports = palindromo();
